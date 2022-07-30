@@ -1,0 +1,14 @@
+.caption-container {
+    margin-bottom: 10%;
+}
+.dud {
+    color: #757575;
+}
+
+.title-content {
+    color: var(--bs-light);
+}
+
+#carouselExampleIndicators {
+    opacity: 0.5;
+}

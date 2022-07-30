@@ -1,0 +1,413 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "South Korea",
+                "numdevices": 37.9,
+                "type": "Highest point on Earth's surface ○ 8,848m (29,029ft)",
+                "location": "Peak located in the Mahalangur Himal sub-range of the Himalayas on the border of Nepal and China.",
+                "facts": "An expedition in 1924 resulted in one of the greatest mysteries on Everest to this day: George Mallory and Andrew Irvine made a final summit attempt on 8 June but never returned, sparking debate as to whether or not they were the first to reach the top. They had been spotted high on the mountain that day but disappeared in the clouds, never to be seen again, until Mallory's body was found in 1999 at 8,155 m (26,755 ft) on the north face. Officially, the peak was first reached by Sir Edmund Hillary of New Zealand and Sherpa of Nepal Tenzing Norgay in 1953.",
+                "imageUrl": "https://cdn.shrm.org/image/upload/c_crop,h_705,w_1254,x_0,y_49/c_fit,f_auto,q_auto,w_767/v1/Global%20HR/Seoul1m_usakpg?databtoa=eyIxNng5Ijp7IngiOjAsInkiOjQ5LCJ4MiI6MTI1NCwieTIiOjc1NCwidyI6MTI1NCwiaCI6NzA1fX0%3D",
+                "imageCaption": "",
+                "source": "Wikipedia Mount Everest article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [126.983333, 37.55]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Denmark",
+                "numdevices": 32.7,
+                "type": "Lowest known point on Earth ○ 11,034 m (36,201 ft) below sea level",
+                "location": "At the bottom of the Mariana Trench in the western Pacific Ocean.",
+                "facts": "The first people to reach the ocean floor in the trench were Swiss oceanographer and engineer Jacques Piccard and U.S. Navy Lieutenant Don Walsh. They descended on board of Trieste Bathyscaphe, a submersible designed by Jacques Piccard and his father.",
+                "imageCaption": "Bathyscaphe Trieste",
+                "imageUrl": "https://i0.wp.com/www.gtt.com/wp-content/uploads/PR_copenhagen.jpg",
+                "source": "Wikipedia Challenger Deep article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [12.583333, 55.66666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Switzerland",
+                "numdevices": 29.0,
+                "type": "Highest active volcano summit ○ 6,061 m (22,838 ft)",
+                "location": "In the Andes on the Argentina-Chile border.",
+                "facts": "The name of the mountain means <em>Eyes of the Salty One</em> in Spanish and it comes from the enormous deposits of salt that, in the form of lagoons or 'eyes', appear in its glaciers.",
+                "imageCaption": "Ojos del Salado volcano looming on the horizon",
+                "imageUrl": "http://img.emg-services.net/htmlpages/htmlpage4239/switzerland-1.jpg",
+                "source": "Ojos del Salado wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.466667, 46.91666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "United States of America",
+                "numdevices": 24.9,
+                "type": "The highest permanent human settlement ○ 5,100 m (16,732 ft)",
+                "location": "Located in the Andes in Peru",
+                "facts": "The town is situated next to a gold mine, so the economy is mainly based on the extraction and production of gold, many artisanal. Between 2001 and 2009, the population increased to 30,000 people from just a small gold prospector camp because the price of gold rose 235% over that period.",
+                "imageCaption": "View of La Rinconada",
+                "imageUrl": "https://c4.wallpaperflare.com/wallpaper/465/308/900/seattle-at-night-from-the-space-needle-hdr-wallpaper-preview.jpg",
+                "source": "La Rinconada, Peru Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77, 38.883333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Netherlands",
+                "numdevices": 24.7,
+                "type": "The lowest-lying national capital in the world and also the largest city in the world located below sea level ○ 28m (92ft) below sea level",
+                "location": "Azerbaijan",
+                "facts": "Baku is the capital and largest city of Azerbaijan, as well as the largest city on the Caspian Sea and of the Caucasus region. In 2012 Baku hosted the 57th Eurovision Song Contest and in 2020 it will be one of the host cities for UEFA Euro 2020.",
+                "imageCaption": "A view of the Baku bay",
+                "imageUrl": "https://static01.nyt.com/images/2017/06/09/world/16ROTTERDAM2/16ROTTERDAM2-superJumbo.jpg",
+                "source": "Baku Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.916667, 52.35]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Germany",
+                "numdevices": 22.4,
+                "type": "World's deepest lake ○ maximum depth of 1,642 m (5,387 ft)",
+                "location": "Southern Siberia, Russia",
+                "facts": "Lake Baikal is the largest freshwater lake by volume in the world, containing 22–23% of the world's fresh surface water. Baikal is home to thousands of species of plants and animals, many of which exist nowhere else in the world. The lake was declared a UNESCO World Heritage Site in 1996. It is also home to Buryat tribes who reside on the eastern side of Lake Baikal, raising goats, camels, cattle, sheep, and horses. The mean temperature varies from a winter minimum of −19 °C (−2 °F) to a summer maximum of 14 °C (57 °F).",
+                "imageCaption": "",
+                "imageUrl": "https://www.periscop.bg/wp-content/uploads/2017/04/6db2bcfc21033e7e2bf1f556354b22bd.jpg",
+                "source": "Lake Baikal Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [13.4, 52.51666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sweden",
+                "numdevices": 21.9,
+                "type": "Most distant point from an ocean ○ 2,645 km (1,644 miles) from the nearest coastline",
+                "location": "In China's Xinjiang region, near the border with Kazakhstan",
+                "facts": "A pole of inaccessibility is defined as the location furthest from any ocean. Each continent has its own pole of innaccessibility, but EPIA has the largest distance from the ocean. There are several debates on where exactly this point lies, depending on how the coastline is defined. In 2007, <a href='http://diapiro.ictja.csic.es/gt/danielgc/papers/Garcia-Castellanos,%20Lombardo,%202007,%20SGJ.pdf' target='_blank'>this study</a> concluded that the Gulf of Ob is part of the ocean and this new pole was established to be the furthest from the ocean.",
+                "imageCaption": "",
+                "imageUrl": "https://cms.sweden.se/app/uploads/2021/04/swedish-parliament-building.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [18.05, 59.33333333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Spain",
+                "numdevices": 19.9,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://www.norvanreports.com/wp-content/uploads/2020/11/ao_hero_image_m01_countries_europe_madrid.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-3.683333, 40.4]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "France",
+                "numdevices": 17.6,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "http://s1.thingpic.com/images/4L/H3jSKwmaViR9fyP69mftpfdy.png",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.333333, 48.86666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Portugal",
+                "numdevices": 16.2,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://ua-networks.com/assets/images/blog/portu.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-9.133333, 38.71666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belgium",
+                "numdevices": 15.6,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://www.aupair-agency.com/wp-content/uploads/2017/06/Belgium-Brugge_West-Vloandern.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.333333, 50.83333333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "United Kingdom",
+                "numdevices": 13.0,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://i1.wp.com/cms.babbel.news/wp-content/uploads/2018/02/UKLanguages.png?resize=1200,630",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.083333, 51.5]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Canada",
+                "numdevices": 11.6,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://www.investopedia.com/thmb/9y7Hi2jX0V8QMJlm4YnX9tj8yLI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1007357278-ca75e93c05f34a4daee2c422e24b83d9.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.7, 45.41666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Italy",
+                "numdevices": 10.2,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "http://2.bp.blogspot.com/-l4d4c-YttxU/TonwrWrBQiI/AAAAAAAADVQ/Z6wto1Pzx44/s640/Rome_Italy_C%25C4%25B1tyscapes_HD_Wallpaper_Vvallpaper.Net.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [12.483333, 41.9]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brazil",
+                "numdevices": 9.2,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/CENU%2C_S%C3%A3o_Paulo%2C_Brasil.jpg/1200px-CENU%2C_S%C3%A3o_Paulo%2C_Brasil.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-47.916667, -15.78333333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Japan",
+                "numdevices": 8.2,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-f6e6c3c8239ea3e5316ffb58c1aa11f2",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.75, 35.68333333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Australia",
+                "numdevices": 7.9,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://www.kalibrr.com/advice/wp-content/uploads/2015/10/Australia1.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [149.133333, -35.26666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mexico",
+                "numdevices": 6.8,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://www.speeli.com/wp-content/uploads/2020/07/Why-is-Mexico-a-developing-country.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-99.133333, 19.43333333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Poland",
+                "numdevices": 6.3,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://lh3.googleusercontent.com/proxy/F4kqcF3jNAocBSn7-Mx1lBExa2uc-iuM70E_BKmTTBSfHcyF8m29kUqL6pVEmS9aXW8J0ZdN98ehGcye4qKI6Ka9yNyYp2Ftd8lxvKnGJONlPcarRYqQXC5XTEa_",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21, 52.25]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China",
+                "numdevices": 6.2,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "http://static.dezeen.com/uploads/2016/01/Shanghai-Tower_Gensler_dezeen_ban.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [116.383333, 39.91666667]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Colombia",
+                "numdevices": 6.1,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "http://static.asiawebdirect.com/m/kl/portals/srilanka-hotels-ws/homepage/colombo/nightlife/pagePropertiesImage/colombo-night.jpg.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.083333, 4.6]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Russia",
+                "numdevices": 4.9,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://i2.wp.com/freepolicybriefs.org/wp-content/uploads/2012/12/20121229-Accountability-in-Russia-Image-02.jpg?fit=1024%2C1024&ssl=1",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [37.6, 55.75]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Turkey",
+                "numdevices": 2.3,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Ducie Atoll, closest landmass to Point Nemo",
+                "imageUrl": "https://frontera.net/wp-content/uploads/2017/01/turkey-1.jpg",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [32.866667, 39.93333333]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "India",
+                "numdevices": 0.6,
+                "type": "Most distant point from land ○ 2,688 km (1,670 mi) from the nearest land",
+                "location": "South Pacific Ocean",
+                "facts": "The oceanic pole of inaccessibility was officially discovered in 1992 by survey engineer Hrvoje Lukatela. The pole has been nicknamed Point Nemo, after author Jules Verne's famous Captain Nemo. The name also means \"no-one\" in Latin, which is fitting because Point Nemo is so far from land, that the nearest humans are often astronauts. The International Space Station orbits the Earth at a maximum of 258 miles (416 km), meanwhile the nearest landmass is Ducie Island, an uninhabited atoll in the Pitcairn Islands, over 1,670 miles (2,700 km) away.",
+                "imageCaption": "Photo by <a href='https://unsplash.com/@jovynchamb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Jovyn Chamb</a> on <a href='https://unsplash.com/s/photos/india?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>",
+                "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80",
+                "source": "Pole of inaccessibility Wikipedia article"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [77.2, 28.6]
+            }
+        }
+    ]
+}

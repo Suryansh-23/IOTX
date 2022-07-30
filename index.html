@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Required meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="icon"
+            href="https://mir-s3-cdn-cf.behance.net/projects/404/09ecc066614097.Y3JvcCwxNDAzLDEwOTgsMCwxNTI.png"
+            type="image/x-icon"
+        />
+
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/cover.css" />
+        <link rel="stylesheet" href="./styles/sidebar.css" />
+        <link rel="stylesheet" href="./styles/features.css" />
+        <link rel="stylesheet" href="./styles/placeholder.css" />
+        <title>Iot X</title>
+    </head>
+    <body>
+        <section id="main">
+            <section id="sidebar">
+                <main class="main-sidebar">
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-shrink-0
+                            text-white
+                            bg-dark
+                        "
+                        style="width: 4rem"
+                    >
+                        <a
+                            href="./index.html"
+                            class="d-block p-3 link-white text-decoration-none"
+                            title="IoT X"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="right"
+                        >
+                        <img src="./img/logo.png" 
+                        height="32em"
+                        width="32em"
+                        alt="">
+                            <span class="visually-hidden">IoTX</span>
+                        </a>
+                        <ul
+                            class="
+                                nav nav-pills nav-flush
+                                flex-column
+                                mb-auto
+                                text-center
+                            "
+                        >
+                            <li class="nav-item">
+                                <a
+                                    href="#carousel"
+                                    class="nav-link active py-3 border-bottom"
+                                    aria-current="page"
+                                    title="Home"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="right"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        fill="currentColor"
+                                        class="bi bi-house-door-fill"
+                                        viewBox="0 0 16 16"
+                                    >
+                                        <path
+                                            d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#jumbo"
+                                    class="nav-link py-3 border-bottom"
+                                    title="Dashboard"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="right"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        fill="#fff"
+                                        class="bi bi-speedometer2"
+                                        viewBox="0 0 16 16"
+                                    >
+                                        <path
+                                            d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"
+                                        />
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#globe"
+                                    class="nav-link py-3 border-bottom"
+                                    title="Collection"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="right"
+                                >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-globe" viewBox="0 0 16 16">
+                                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                                  </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#features"
+                                    class="nav-link py-3 border-bottom"
+                                    title="Factomania"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="right"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        fill="#fff"
+                                        class="bi bi-graph-up"
+                                        viewBox="0 0 16 16"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#placeholder"
+                                    class="nav-link py-3 border-bottom"
+                                    title="Featurette"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="right"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="32"
+                                        height="32"
+                                        fill="white"
+                                        class="bi bi-collection-fill"
+                                        viewBox="0 0 16 16"
+                                    >
+                                        <path
+                                            d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#contact-us"
+                                    class="nav-link py-3 border-bottom"
+                                    title="Contact Us"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="right"
+                                >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                                    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                                  </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </main>
+            </section>
+            <section id="sub-main">
+                <section id="title" class="text-center">
+                    <h1 class="display-1 title-content">iOT</h1>
+                </section>
+                <section class="d-flex" id="carousel">
+                    <div
+                        id="carouselExampleIndicators"
+                        class="carousel slide carousel-fade"
+                        data-bs-ride="carousel"
+                    >
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div
+                                class="carousel-item active"
+                                data-bs-interval="3000"
+                            >
+                                <img
+                                    src="./img/Carousel 1.gif"
+                                    class="d-block w-100"
+                                    alt="Internet of Things"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>Internet of Things</h1>
+                                    <p>
+                                        IOT is the new face of technology & the
+                                        pathway to automation.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img
+                                    src="./img/Carousel 2.jpg"
+                                    class="d-block w-100"
+                                    alt="Connectivity through IOT"
+                                />
+                                <div
+                                    class="
+                                        carousel-caption
+                                        d-none d-md-block
+                                        mb-5
+                                    "
+                                >
+                                    <h1>Connectivity</h1>
+                                    <p>
+                                        IOT has made connectivity & sync between
+                                        multiple devices possible.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img
+                                    src="./img/Carousel 3.jpg"
+                                    class="d-block w-100"
+                                    alt=" IOT's WorldWide Reach"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>WorldWide Reach</h1>
+                                    <p>
+                                        IOT has a worldwide reach and is almost
+                                        used all over the world in every sector.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+                <section id="jumbo">
+                    <main>
+                        <div class="container py-4">
+                            <header class="pb-3 mb-4 border-bottom">
+                                <a
+                                    href="/"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        text-dark text-decoration-none
+                                    "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="40"
+                                        height="32"
+                                        class="me-2"
+                                        viewBox="0 0 118 94"
+                                        role="img"
+                                    >
+                                        <title>IoT X</title>
+                                        <img src="./img/logo.png" 
+                                        height="32"
+                                        width="32"
+                                        alt="">
+                                    <span class="fs-4">IOT X</span>
+                                </a>
+                            </header>
+
+                            <div class="p-5 mb-4 bg-light rounded-3">
+                                <div class="container-fluid py-5">
+                                    <h1 class="display-5 fw-bold">
+                                        What is IOT?
+                                    </h1>
+                                    <p class="col-md-8 fs-4">
+                                        Over the past few years, IoT has become
+                                        one of the most important technologies
+                                        of the 21st century. The Internet of
+                                        Things (IoT) refers to the network of
+                                        physical objects—“things”—that are
+                                        embedded with sensors, software, and
+                                        other technologies for the purpose of
+                                        connecting and exchanging data with
+                                        other devices and systems over the
+                                        internet. These devices range from
+                                        ordinary household objects to
+                                        sophisticated industrial tools.<br />
+                                        With more than 21.5 billion connected
+                                        IoT devices today, experts are expecting
+                                        this number to grow to 23 billion by
+                                        2022 and 25 billion by 2025.
+                                    </p>
+                                    <a
+                                        href="https://www.oracle.com/in/internet-of-things/what-is-iot/"
+                                        target="_blank"
+                                    >
+                                        <button
+                                            class="btn btn-primary btn-lg"
+                                            type="button"
+                                        >
+                                            Read More
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-md-stretch">
+                                <div class="col-md-6">
+                                    <div
+                                        class="
+                                            h-100
+                                            p-5
+                                            text-white
+                                            bg-dark
+                                            rounded-3
+                                        "
+                                    >
+                                        <h2>How do IoT Devices Work?</h2>
+                                        <p>
+                                            An IoT ecosystem consists of
+                                            web-enabled smart devices that use
+                                            embedded systems, such as
+                                            processors, sensors and
+                                            communication hardware, to collect,
+                                            send and act on data they acquire
+                                            from their environments. IoT devices
+                                            share the sensor data they collect
+                                            by connecting to an IoT gateway or
+                                            other edge device where data is
+                                            either sent to the cloud to be
+                                            analyzed or analyzed locally.
+                                            Sometimes, these devices communicate
+                                            with other related devices and act
+                                            on the information they get from one
+                                            another. The devices do most of the
+                                            work without human intervention,
+                                            although people can interact with
+                                            the devices -- for instance, to set
+                                            them up, give them instructions or
+                                            access the data.
+                                        </p>
+                                        <a
+                                            href="https://internetofthingsagenda.techtarget.com/definition/Internet-of-Things-IoT"
+                                            target="_blank"
+                                        >
+                                            <button
+                                                class="btn btn-outline-light"
+                                                type="button"
+                                            >
+                                                Know More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div
+                                        class="
+                                            h-100
+                                            p-5
+                                            bg-light
+                                            border
+                                            rounded-3
+                                        "
+                                    >
+                                        <h2>IoT Devices in Everday Life</h2>
+                                        <p>
+                                            A lightbulb that can be switched on
+                                            using a smartphone app is an IoT
+                                            device, as is a motion sensor or a
+                                            smart thermostat in your office or a
+                                            connected streetlight. An IoT device
+                                            could be as fluffy as a child's toy
+                                            or as serious as a driverless truck.
+                                            Some larger objects may themselves
+                                            be filled with many smaller IoT
+                                            components, such as a jet engine
+                                            that's now filled with thousands of
+                                            sensors collecting and transmitting
+                                            data back to make sure it is
+                                            operating efficiently. At an even
+                                            bigger scale, smart cities projects
+                                            are filling entire regions with
+                                            sensors to help us understand and
+                                            control the environment.
+                                        </p>
+                                        <a
+                                            href="https://www.zdnet.com/article/what-is-the-internet-of-things-everything-you-need-to-know-about-the-iot-right-now/"
+                                            target="_blank"
+                                        >
+                                            <button
+                                                class="
+                                                    btn btn-outline-secondary
+                                                "
+                                                type="button"
+                                            >
+                                                Know More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </section>
+                <section id="globe">
+                    <div id="globe-main">
+                        <button
+                            type="button"
+                            id="globe-fullscreen"
+                            class="btn btn-dark"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-fullscreen"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"
+                                ></path>
+                            </svg>
+                        </button>
+                        <iframe
+                            title="globe of iOT"
+                            src=".//globe//globe.html"
+                            allowfullscreen="true"
+                            id="globe-iframe"
+                        ></iframe>
+                    </div>
+                </section>
+                <section id="features">
+                    <main>
+                        <div
+                            class="
+                                pricing-header
+                                p-3
+                                pb-md-4
+                                mx-auto
+                                text-center
+                            "
+                        >
+                            <h1 class="display-4 fw-normal">Facts About The IoT World</h1>
+                            <p class="fs-5 text-muted">
+                                Facts are always a good way to represent big numbers to the people. 
+                                The facts related to the IoT World are coming here on your way.
+                            </p>
+                        </div>
+                        <div
+                            class="
+                                row row-cols-1 row-cols-md-3
+                                mb-3
+                                text-center
+                            "
+                        >
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                        <h4 class="my-0 fw-normal">#1</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h1
+                                            class="
+                                                card-title
+                                                pricing-card-title
+                                            "
+                                        >
+                                        500 ZB<small class="text-muted fw-light"
+                                                ></small
+                                            >
+                                        </h1>
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>It is estimated that in the year 2019 alone, IoT devices processed in excess of 500 zettabytes of data. 
+                                                For scale, that’s roughly equivalent to 250 billion DVDs or 36 million hours of HD video.</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div
+                                    class="
+                                        card
+                                        mb-4
+                                        rounded-3
+                                        shadow-sm
+                                        border-primary
+                                    "
+                                >
+                                    <div
+                                        class="
+                                            card-header
+                                            py-3
+                                            text-white
+                                            bg-primary
+                                            border-primary
+                                        "
+                                    >
+                                        <h4 class="my-0 fw-normal">
+                                            #3
+                                        </h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h1
+                                            class="
+                                                card-title
+                                                pricing-card-title
+                                            "
+                                        >
+                                            21.5 M<small
+                                                class="text-muted fw-light"
+                                                ></small
+                                            >
+                                        </h1>
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>As of 2015, a total of 15.41 billion devices were connected to the internet. Thanks to new wireless technologies 
+                                                and other IoT-related advancements that number will balloon to 75 billion devices by 2025. That represents an increase of 487%.</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                        <h4 class="my-0 fw-normal">#2</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h1
+                                            class="
+                                                card-title
+                                                pricing-card-title
+                                            "
+                                        >
+                                        80%<small
+                                                class="text-muted fw-light"
+                                                ></small
+                                            >
+                                        </h1>
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>80% of Companies invest in IoT for computer hardware requirements, software programming skills, and data science involved in a proper IoT project. 
+                                                They integrate IoT devices with human resource.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="display-6 text-center mb-4">
+                            Iot Platform Comparisons
+                        </h2>
+
+                        <div class="table-responsive">
+                            <table class="table text-center">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 34%"></th>
+                                        <th style="width: 22%">Adamos</th>
+                                        <th style="width: 22%">Particle.io</th>
+                                        <th style="width: 22%">
+                                            Record Evolution
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            Data Collection
+                                        </th>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            Easy Setup & Scalable
+                                        </th>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            Integration Open APIs
+                                        </th>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            OTA Development [Cloud IDE]
+                                        </th>
+                                        <td>
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            Advanced Analytics
+                                        </th>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            Collaboration User Community
+                                        </th>
+                                        <td></td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            Flexible Deployment
+                                        </th>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-start">
+                                            IoT App Store
+                                        </th>
+                                        <td></td>
+                                        <td>
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                        <td>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="green"
+                                                class="bi bi-check2"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <path
+                                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+                                                />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </main>
+                </section>
+                <section id="placeholder">
+                    <hr class="featurette-divider" />
+
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">
+                                IoT Sector #1
+                                <span class="text-muted"
+                                    >Healthcare</span
+                                >
+                            </h2>
+                            <p class="lead">
+                                Internet of Things (IoT)-enabled devices have made remote monitoring in the healthcare sector possible, unleashing the potential to keep patients safe and healthy, and empowering physicians to deliver superlative care. 
+                                It has also increased patient engagement and satisfaction as interactions with doctors have become easier and more efficient. 
+                                Furthermore, remote monitoring of patient’s health helps in reducing the length of hospital stay and prevents re-admissions. 
+                                IoT also has a major impact on reducing healthcare costs significantly and improving treatment outcomes.<br>
+                                Devices in the form of wearables like fitness bands and other wirelessly connected devices like blood pressure and heart rate monitoring cuffs, glucometer etc.
+                                These devices can be tuned to remind calorie count, exercise check, appointments, blood pressure variations and much more.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                                <title>Placeholder</title>
+                                <img src="https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/benefits-of-iot-health-applications-of-iot.jpg" 
+                                height="95%"
+                                width="100%"
+                                alt=" IoT in Healthcare"
+                                style="margin-left: 10px;">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider" />
+
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading">
+                                Iot Sector #2
+                                <span class="text-muted"
+                                    >Agriculture</span
+                                >
+                            </h2>
+                            <p class="lead">
+                                Despite the perception people may have regarding the agricultural process, the reality is that today’s agriculture industry is data-centered, precise, and smarter than ever. 
+                                The rapid emergence of the Internet-of-Things (IoT) based technologies redesigned almost every industry including 
+                                “smart agriculture” which moved the industry from statistical to quantitative approaches.
+                                IoT Sensors are available for specific agricultural application, like soil preparation, crop status, irrigation, insect and pest detection
+                                This technology is helping the growers throughout the crop stages, from sowing until harvesting, packing and transportation. Thus, increasing the productional growth from arithmetic to exponential.
+                            </p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img src="https://dreamztechusa.com/blog/wp-content/uploads/2018/09/iot-agriculture-1.jpg" alt=" IoT in Agriculture"
+                            height="95%"
+                            width="100%"
+                            style="margin-right: 10px;">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider" />
+
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">
+                                IoT Sector #3
+                                <span class="text-muted">Industries</span>
+                            </h2>
+                            <p class="lead">
+                                Just like the Internet of Things in general, the Industrial IoT covers many use cases, industries and applications. 
+                                Initially focusing on the optimization of operational efficiency and rationalization/automation/maintenance, with an important role for the convergence of IT and OT,
+                                the Industrial Internet of Things opens plenty of opportunities in automation, optimization, intelligent manufacturing and smart industry, asset performance management, maintenance, industrial control, 
+                                moving towards an on demand service model, new ways of servicing customers and the creation of new revenue models, the more mature goal of industrial digital transformation.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="https://meti.in/wp-content/uploads/2019/02/Smart-Manufacturing-11.jpg" alt="Industrial IoT"
+                            height="90%"
+                            width="100%"
+                            style="margin-left: 10px;">
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider" />
+                </section>
+                <section id="contact-us" class="pb-5">
+                    <div class="bg-dark text-secondary px-4 py-5 text-center">
+                        <div class="d-flex flex-row">
+                            <div class="py-5">
+                                <h1 class="display-5 fw-bold text-white">
+                                    Contact Us
+                                </h1>
+                                <div class="col-lg-6 mx-auto">
+                                    <p class="fs-5 mb-4">
+                                        Use the form on right to contact us. Ask
+                                        us anything by first entering your
+                                        e-mail so that we can reply you
+                                        promptly. Also briefly describe your
+                                        issue/praise/query.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                id="about-form"
+                                class="col-md-10 mx-auto col-lg-5"
+                            >
+                                <form
+                                    class="p-4 p-md-5 border rounded-3 bg-light"
+                                >
+                                    <div class="form-floating mb-3">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="emailInput"
+                                            placeholder="name@example.com"
+                                        />
+                                        <label for="floatingInput"
+                                            >Your E-mail address</label
+                                        >
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input
+                                            class="form-control"
+                                            id="subjectInput"
+                                            placeholder="Subject"
+                                        />
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Please Type your Message"
+                                            id="messageInput"
+                                            style="height: 100px"
+                                        ></textarea>
+                                        <label for="messageInput"
+                                            >Please Type your Message</label
+                                        >
+                                    </div>
+                                    <button
+                                        class="w-100 btn btn-lg btn-primary"
+                                        id="contact-submit"
+                                    >
+                                        Submit
+                                    </button>
+                                    <hr class="my-4" />
+                                    <small class="text-muted"
+                                        >You Hereby submit some of your private
+                                        information.</small
+                                    >
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="footer">
+                    <div class="container">
+                        <footer
+                            class="
+                                d-flex
+                                flex-wrap
+                                justify-content-between
+                                align-items-center
+                                py-3
+                                my-4
+                                border-top
+                            "
+                        >
+                            <div class="col-md-4 d-flex align-items-center">
+                                <a
+                                    href="/"
+                                    class="
+                                        mb-3
+                                        me-2
+                                        mb-md-0
+                                        text-muted text-decoration-none
+                                        lh-1
+                                    "
+                                >
+                                    <img src="./img/logo.png" 
+                                    height="32"
+                                    width="32"
+                                    alt="">
+                                </a>
+                                <span class="text-muted"
+                                    >&copy; IoT X, Inc</span
+                                >
+                            </div>
+                            <ul
+                                class="
+                                    nav
+                                    justify-content-center
+                                    border-bottom
+                                    pb-2
+                                    mb-2
+                                "
+                            >
+                                <li class="nav-item">
+                                    <a href="#carousel" class="nav-link px-2 text-muted"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#jumbo" class="nav-link px-2 text-muted"
+                                        >Dashboard</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-2 text-muted"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-2 text-muted"
+                                        >FAQs</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact-us" class="nav-link px-2 text-muted"
+                                        >About</a
+                                    >
+                                </li>
+                            </ul>
+
+                            <ul
+                                class="
+                                    nav
+                                    col-md-4
+                                    justify-content-end
+                                    list-unstyled
+                                    d-flex
+                                "
+                            >
+                                <li class="ms-3">
+                                    <a class="text-muted" href="https://twitter.com/gurukulthescho1?lang=en" target="_blank">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            fill="black"
+                                            class="bi bi-twitter"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                                            /></svg
+                                    ></a>
+                                </li>
+                                <li class="ms-3">
+                                    <a class="text-muted" href="https://www.facebook.com/gurukulNH9/" target="_blank">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            fill="black"
+                                            class="bi bi-facebook"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                                            /></svg
+                                    ></a>
+                                </li>
+                                <li class="ms-3">
+                                    <a class="text-muted" href="https://www.instagram.com/gurukultheschoolghaziabad/?hl=en" target="_blank">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            fill="black"
+                                            class="bi bi-instagram"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                                            />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </footer>
+                    </div>
+                </section>
+                <section id="toast">
+                    <div
+                        class="position-fixed bottom-0 end-0 p-3"
+                        style="z-index: 11"
+                    >
+                        <div
+                            id="liveToast"
+                            class="toast"
+                            role="alert"
+                            aria-live="assertive"
+                            aria-atomic="true"
+                        >
+                            <div class="toast-header">
+                                <img src="./img/logo.png"
+                                height="32"
+                                width="32"
+                                alt="">
+                                <strong class="me-auto">IoT X</strong>
+                                <small>Now</small>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="toast"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="toast-body">
+                                Hurrah, You've connected with us. Your Query
+                                will be replied shortly.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+        <script src="./src/sidebar.js"></script>
+        <script src="./src/app.js"></script>
+        <script src="./src/scrambler.js"></script>
+        <script src="./src/contact.js"></script>
+    </body>
+</html>
